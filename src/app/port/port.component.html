@@ -1,0 +1,68 @@
+<div class="main d-flex justify-content-center align-items-center bg-white">
+  <div class="container py-5">
+    <div>
+      <h2 class="main-color fw-bold fs-1 text-center">PORTFOLIO COMPONENT</h2>
+      <div class="icons d-flex justify-content-center align-items-center main-color">
+        <i class="fa-solid fa-grip-lines"></i>
+        <i class="fa-solid fa-star fs-3"></i>
+        <i class="fa-solid fa-grip-lines"></i>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-4 p-3" >
+        <div class="inner position-relative" (click)="getitem('../../assets/poert1.png')">
+          <img src="../../assets/poert1.png" class="w-100 rounded-4" >
+          <div class="slider rounded-4" >
+            <i class="fa-solid fa-compress"></i>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 p-3">
+        <div class="inner position-relative" (click)="getitem('../../assets/port2.png')">
+          <img src="../../assets/port2.png" class="w-100 rounded-4">
+          <div class="slider rounded-4">
+            <i class="fa-solid fa-compress"></i>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 p-3">
+        <div class="inner position-relative" (click)="getitem('../../assets/port3.png')">
+          <img src="../../assets/port3.png" class="w-100 rounded-4">
+          <div class="slider rounded-4">
+            <i class="fa-solid fa-compress"></i>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 p-3">
+        <div class="inner position-relative" (click)="getitem('../../assets/poert1.png')">
+          <img src="../../assets/poert1.png" class="w-100 rounded-4">
+          <div class="slider rounded-4">
+            <i class="fa-solid fa-compress"></i>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 p-3">
+        <div class="inner position-relative" (click)="getitem('../../assets/port2.png')">
+          <img src="../../assets/port2.png" class="w-100 rounded-4">
+          <div class="slider rounded-4">
+            <i class="fa-solid fa-compress"></i>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 p-3">
+        <div class="inner position-relative" (click)="getitem('../../assets/port3.png')">
+          <img src="../../assets/port3.png" class="w-100 rounded-4">
+          <div class="slider rounded-4">
+            <i class="fa-solid fa-compress"></i>
+          </div>
+        </div>
+      </div>
+      <div [class]="flag==true?'d-block':'d-none'" (click)="leaveItem($event)">
+        <div class="display">
+        <div class="w-50"><img [src]="imgSrc" class="w-100"></div>
+      </div>
+      </div>
+
+    </div>
+  </div>
+</div>

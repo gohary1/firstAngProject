@@ -1,0 +1,16 @@
+.main{
+  height: 80vh;
+  background-color: #1abc9c;
+  display: flex;
+justify-content: center;
+align-items:center ;
+}
+.inner i{
+  font-size: 7rem;
+  color: white;
+}
+.inner h3{
+  font-weight: bold;
+  color: rgb(255, 0, 0);
+  font-size: 2rem;
+}

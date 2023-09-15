@@ -1,0 +1,11 @@
+.bg-main{
+  background-color: #1abc9c;
+}
+.main{
+  height: 90vh;
+}
+.icons i{
+  color: white;
+  font-size: 4rem;
+  margin: 0 .4rem;
+}

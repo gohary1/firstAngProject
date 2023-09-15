@@ -1,0 +1,31 @@
+<div class="main">
+  <div class="container py-3 d-flex flex-column align-items-center ">
+    <div>
+      <h2 class="main-color fw-bold fs-1 text-center">CONATCT SECTION</h2>
+      <div class="icons d-flex justify-content-center align-items-center main-color">
+        <i class="fa-solid fa-grip-lines"></i>
+        <i class="fa-solid fa-star fs-3"></i>
+        <i class="fa-solid fa-grip-lines"></i>
+      </div>
+    </div>
+    <div class="allInputs w-75 mt-5">
+      <div class="form-floating rounded-3 animate__animated mb-3" [ngClass]="{'right':xName==true,'animate__pulse':xName==true,'wrong':xName==false,'animate__shakeX':xName==false}">
+        <input type="text" class="form-control" id="floatingName" placeholder="User Name" (keyup)="regexDisplay($event)">
+        <label for="floatingName">User Name</label>
+      </div>
+      <div class="form-floating rounded-3 animate__animated mb-3"[ngClass]="{'right':xAge==true,'animate__pulse':xAge==true,'wrong':xAge==false,'animate__shakeX':xAge==false}">
+        <input type="text" class="form-control" id="floatingAge" placeholder="User Age" (keyup)="regexDisplay($event)">
+        <label for="floatingAge">User Age</label>
+      </div>
+      <div class="form-floating rounded-3 animate__animated mb-3" [ngClass]="{'right':xEmail==true,'animate__pulse':xEmail==true,'wrong':xEmail==false,'animate__shakeX':xEmail==false}">
+        <input type="text" class="form-control" id="floatingEmail" placeholder="User Email" (keyup)="regexDisplay($event)">
+        <label for="floatingEmail">User Email</label>
+      </div>
+      <div class="form-floating rounded-3 animate__animated mb-3" [ngClass]="{'right':xPass==true,'animate__pulse':xPass==true,'wrong':xPass==false,'animate__shakeX':xPass==false}">
+        <input type="password" class="form-control" id="floatingPassword" placeholder="User password" (keyup)="regexDisplay($event)">
+        <label for="floatingPassword">User password</label>
+      </div>
+      <div class="btn btn-success">Send Message</div>
+    </div>
+  </div>
+</div>

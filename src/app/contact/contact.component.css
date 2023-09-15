@@ -1,0 +1,16 @@
+
+
+
+.icons i{
+  font-size: 4rem;
+  margin: 0 .4rem;
+}
+input{
+  border: 1px solid rgba(128, 128, 128, 0.607);
+}
+.right{
+  border: 2px solid rgb(13, 181, 13);
+}
+.wrong{
+  border: 2px solid red;
+}

@@ -1,0 +1,40 @@
+.main-color{
+  color: #2c3e50;
+}
+.icons i{
+  font-size: 4rem;
+  margin: 0 .4rem;
+}
+.slider{
+  position: relative;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #1abc9c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  cursor: pointer;
+  transition: opacity .3s ease-in-out;
+}
+.slider i{
+  font-size: 6rem;
+  color: white;
+}
+.inner:hover .slider{
+  opacity: .9;
+}
+.display{
+  background-color: rgba(0, 0, 0, 0.363);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
